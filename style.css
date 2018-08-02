@@ -1,0 +1,39 @@
+#OCForm {
+  padding: 20px;
+  word-wrap: normal;
+}
+
+#OCForm div.title {
+  width: 100px;
+  font-weight: bold;
+}
+
+#OCForm div.row {
+  margin-top: 0.5em;
+}
+
+#OCForm div.items {
+  border: 1px solid #e6e6e6;
+  padding: 5px;
+}
+
+#OCForm div.right {
+  float: left;
+}
+
+.JSONTypeObject {
+  padding: 10px;
+  border: 1px solid silver;
+  width: 100%;
+}
+
+#OCForm td { padding: 5px; }
+#OCForm th { padding: 5px; width: 20%; }
+
+#OCForm a.oc_action { cursor: pointer; }
+
+#OCReload { font-size: 0.8em; display: inline-block; }
+#OCReload a { cursor: pointer; }
+
+.OCRadio { display: inline-block; padding-right: 10px; }
+.OCRadio label { font-weight: normal; cursor: pointer; }

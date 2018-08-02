@@ -1,0 +1,17 @@
+{
+  "name": "OpenCrypto Data Extension",
+  "version": "0.1",
+  "description": "",
+  "icons": {
+    "16": "icon128.png",
+    "48": "icon128.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [{
+    "js": ["mithril.min.js", "lodash.min.js", "jquery.min.js", "js-yaml.min.js", "content.js"],
+    "css": ["style.css"],
+    "matches": ["https://github.com/*"]
+  }],
+  "web_accessible_resources": ["script.js"],
+  "manifest_version": 2
+}
